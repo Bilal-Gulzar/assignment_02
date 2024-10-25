@@ -3,6 +3,7 @@ import React from 'react'
 import styles from './contact.module.css'
 import Header from '../component/header/header'
 import Footer from '../component/footer/footer';
+import Herosection from '../component/herosection/herosection';
 
 export default function Contact() {
   const handleForm = (evt: MouseEvent) => {
@@ -12,6 +13,7 @@ export default function Contact() {
     <div className={styles.main}>
       <div>
         <Header />
+        <Herosection/>
         <div className={styles.contactContainer}>
           <h2 className={styles.title}>Contact Us</h2>
           <p className={styles.description}>

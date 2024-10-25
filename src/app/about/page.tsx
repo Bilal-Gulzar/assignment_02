@@ -2,11 +2,13 @@ import React from 'react'
 import styles from './about.module.css'
 import Header from '../component/header/header';
 import Footer from '../component/footer/footer';
+import Herosection from '../component/herosection/herosection';
 export default function AboutPage() {
   return (
     <div className={styles.main}>
       <div>
         <Header />
+        <Herosection/>
         <main className={styles.aboutContainer}>
           <h1 className={styles.title}>About Us</h1>
           <p className={styles.description}>
